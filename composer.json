@@ -1,5 +1,14 @@
 {
     "name": "egor_konev/php-project",
+    "autoload": {
+	"files": [
+	    "src/Runner.php"
+        ]
+    },
+    "scripts": {
+	    "phpcs": ["phpcs"
+	    ]
+    },
     "description": "Study project",
     "type": "project",
     "authors": [
@@ -9,5 +18,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "illuminate/collections": "^11.30"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
 }
