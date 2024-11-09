@@ -1,0 +1,13 @@
+{
+    "name": "egor_konev/php-project",
+    "description": "Study project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Egor",
+            "email": "woornir@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
